@@ -1,0 +1,73 @@
+/* LG-SMALL LAPTOPS: 1024px -1280px  */
+@media (max-width: 72rem) {
+
+    /* 1150px/16px=71.875rem */
+    /* 72rem*16=1152px */
+    html {
+        /* 9px/16px=0.5625rem */
+
+        font-size: 56.25%;
+
+    }
+
+    .features-grid-container {
+        column-gap: 2rem;
+    }
+
+    .CTA-section {
+        margin-bottom: 20rem;
+    }
+
+}
+
+/* MD-TABLETS: 978px -1024px  */
+@media (max-width: 60rem) {
+
+    /* 960px/16px=60rem */
+    html {
+        /* 8px/16px=0.5rem */
+
+        font-size: 50%;
+    }
+}
+
+/* SM-PHONE LANDSCAPE: 700px -978px  */
+@media (max-width: 43.75rem) {
+
+    /* 700px/16px=43.75rem */
+    html {
+        /* 7px/16px=0.4375rem */
+
+        font-size: 43.75%;
+    }
+
+    .features-grid-container {
+        /* grid-template-columns: 1fr; */
+        row-gap: 5rem;
+    }
+
+    .CTA-card {
+        padding: 5rem 10rem;
+    }
+
+}
+
+/* XS-PHONE PORTRAIT: <700px  */
+@media (max-width: 34rem) {
+
+    /* 700px/16px=43.75rem */
+    html {
+        /* 6px/16px=0.375rem */
+
+        font-size: 37.5%;
+    }
+
+    .features-grid-container {
+        grid-template-columns: 1fr;
+        row-gap: 5rem;
+    }
+
+    .CTA-card {
+        padding: 5rem 10rem;
+    }
+}
